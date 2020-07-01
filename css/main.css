@@ -1,7 +1,17 @@
 
 /***********
+font
+************/
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+/***********
 GENERAL
 ************/
+
+body {
+    font-family: 'Open Sens', sans-serif;
+}
 
 #wrapper {
     max-width: 940px;
@@ -13,16 +23,101 @@ a  {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
 
 /***********
 HEADER
 ************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
 
 #logo {
     text-align: center;
     max-resolution: 0;
 }
 
+h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2{
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+
+
+/***********
+NAVIGATION
+************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav lu {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+/***********
+FOOTER
+************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+
+/***********
+PAGE: PORTFOLIO
+************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
 
 
 /***********
@@ -65,4 +160,5 @@ nav a, nav a:visited   {
 nav a.selected, nav a:hover {
     color: #32673f;
 }
+
 
