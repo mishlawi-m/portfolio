@@ -1,0 +1,31 @@
+a  {
+    text-decoration: none;
+}
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+#logo {
+    text-align: center;
+    max-resolution: 0;
+}
+a {
+    color: #6ab47b;
+}
+header {
+    background-color: #6ab47b;
+    border-color: #599a68;
+}
+h1, h2 {
+    color: #fff;
+}
+nav {
+    background-color: #599a68;
+}
+nav a, nav a:visited   {
+    color: #fff;
+}
+nav a.selected {
+    color: #32673f;
+}
