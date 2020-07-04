@@ -25,6 +25,7 @@ a  {
 
 img {
     max-width: 100%;
+    
 }
 
 h3 {
@@ -44,7 +45,7 @@ header {
 
 #logo {
     text-align: center;
-    max-resolution: 0;
+    margin: 0;
 }
 
 h1 {
